@@ -8,12 +8,13 @@ using namespace std;
 int month = 0;
 double soilQual = 1;
 int profit = 0;
-bool orgComp = 1;
+
+bool orgComp = 0; //config values for events
 bool cide = 0;
 bool remCide = 0;
-bool covCrop = 1;
-int reinBat = 0;
-int reem = 0;
+bool covCrop = 0;
+int reinBat = -1;
+int reem = -1;
 
 Coyote coyote;
 Fox fox;
@@ -42,8 +43,10 @@ void addBat();
 void reemSpec();
 
 int main() {
-	
-	timePass(24);
+	int num;
+	cout << "Enter the number of months to pass: ";
+	cin >> num;
+	timePass(num);
 	cout << "end";
 }
 
@@ -180,7 +183,7 @@ void cornConsump() {
 
 void harvest() {
 	profit += (corn.totPop * 5) * soilQual;
-	cout << "harvest: " << corn.totPop << endl;
+	cout << "harvest: " << corn.totPop << " Profit: " << profit << endl;
 	corn.totPop = 0;
 	coyote.energyConsump += coyote.cornConsump;
 	fox.energyConsump += coyote.cornConsump;
