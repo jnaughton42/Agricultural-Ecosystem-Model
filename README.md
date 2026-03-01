@@ -4,6 +4,8 @@
 
 **Team: Jeremiah Naughton (coding), Jasmine Reid (data collection and report writing), Sarah Jameson (data collection and report writing)**
 
+**Download EcosystemModel.zip for full project**
+
 ---
 
 ## Description
