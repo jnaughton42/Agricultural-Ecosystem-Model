@@ -27,7 +27,7 @@ these relationships needed to be tweaked.
 
 Also, as is the reality with any simulation, but especially one created in two days with unreliable data, this simulation does not cover nearly all the factors in a real ecosystem, nor their complexity.
 The representation of most of these relationships, although intertwined, is rather mathematically simple due to time constraints.
-Given these things, it is no surprise that the simiualtion is very unstable and usually experiences some sort of ecosystem collapse relatively quickly (showing how complex and delicate real world ecosystems are).
+Given these things, it is no surprise that the simulation is very unstable and usually experiences some sort of ecosystem collapse relatively quickly (showing how complex and delicate real world ecosystems are).
 
 Despite all of these issues, non-obvious causal chains can be observed in some simulations, implying some level of viability.
 
